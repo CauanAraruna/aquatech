@@ -49,6 +49,7 @@ body {
     background-image: url("./assets/imagens/bg-jelly-fish-para_outras_pags.png");
     height: 500px;
     color: white;
+    display: flex;
 }
 
 .banner .container{
@@ -99,3 +100,64 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+ /* tela de cadastro */
+
+.caixa {
+    display: flex;
+    background-color: #e5e5e5;
+    width: 425px;
+    height: 550px;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 15px;
+}
+
+.banner .caixa {
+    color: #db80a2;
+    font-weight: 200;
+    font-size: 16px;
+    align-items: center;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Ajuste o espaçamento vertical entre os campos */
+    flex-direction: column;
+}
+
+.banner .caixa p{
+    color: #db80a2;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: flex-start;
+    margin-right: 110px;
+}
+
+.banner .caixa span{
+    color: #db80a2;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #32b9cd;
+    background-color: white;
+    height: 30px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #e6005a;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-style: none;
+}
+
